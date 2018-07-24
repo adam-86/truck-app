@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html> <![endif]-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles/jquery.Jcrop.css" />
+  <link rel="stylesheet" href="styles/master.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+  <title>Truck App</title>
+
+</head>
+<body>
+
+  <div class="main-container">
+
+    <div class="bg-bar-blue">
+
+      <div class="logo">
+        <img src="assets/rolling-adz-logo.png" alt="Rolling Adz logo">
+      </div>
+
+      <span class="menu-button">Need Help?</span>
+    </div>
+
+    <div class="slide-container">
+
+         <div id="capture-this" class="slide index-1">
+            <div class="mock-image"></div>
+            <div class="cropzone cropme"></div>
+          </div>
+
+          <div class="slide-nav-container">
+            <div class="nav-arrow"><img id="back"  src="assets/arrow.png" alt="previous slide button"></div>
+            <div class="adjustments brightness">
+              <img src="assets/brightness-icon.png" alt="brightness button">
+          </div>
+
+            <div class="adjustments contrast">
+              <img class="negative-contrast-btn" src="assets/cont-minus.png" alt="Increase contrast button">
+              <img class="plus-contrast-btn" src="assets/cont-plus.png" alt="decrease contrast button">
+            </div>
+
+            <div class="nav-arrow"><img id="forward" src="assets/arrow-right.png" alt="next slide button"></div>
+
+          </div>
+
+      </div> <!-- End slide container -->
+
+      <div class="networking-icons">
+        <a id="download-button" href="#"><img src="assets/download-icon.png" alt="download button"></a>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fadam-86.github.io/truck-app%2F
+      "><img src="assets/facebook-icon.png" alt="facebook button"></a>
+
+
+        <a href="https://twitter.com/intent/tweet
+        ?url=https%3A%2F%2Fadam-86.github.io/truck-app"><img src="assets/twitter-icon.png" alt="twitter button"></a>
+
+
+      </div>
+
+    <div class="instructions-popout"> <!-- Instuction menu start -->
+      <span class="close-instructions-btn"></span>
+
+       <h1>Instructions</h1>
+      <div class="instructions step-1">
+        <span class="steps"><strong>Step 1:</strong></span>
+        <img class="instruction-arrow" src="assets/arrow.png" alt="arrow icon left">
+        <img class="instruction-arrow" src="assets/arrow.png" alt="arrow icon right">
+        <p>Use the arrows to navigate through the slides and pick your favorite truck.</p>
+
+      </div>
+      <div class="instructions step-2">
+        <span class="steps"><strong>Step 2:</strong></span>
+        <img class="instruction-pointer" src="assets/click-icon-2.png" alt="click icon">
+        <p>Click the pointer icon and you will be prompted to upload an image from your device.</p>
+      </div>
+
+      <div class="instructions step-3">
+        <span class="steps"><strong>Step 3:</strong></span>
+          <img class="instruction-crop-window" src="assets/crop-window-icon.png" alt="cropbox icon">
+          <br>
+        <p>After selecting an image, you will be presented with a crop box. Line your image up the best you can and click the accept button.</p>
+      </div>
+
+      <div class="instructions step-4">
+        <span class="steps"><strong>Step 4:</strong></span>
+        <img class="instruction-download-icon" src="assets/download-icon.png" alt="download icon">
+        <p>If you would like to save a copy, click the download button positioned below your image.</p>
+      </div>
+
+    </div> <!-- End instruction menu -->
+
+</div> <!-- End main container -->
+    <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" charset="utf-8"></script> -->
+    <script type="text/javascript" src="javascript/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="javascript/file-saver.js"></script>
+    <script type="text/javascript" src="javascript/dom-to-image.js"></script>
+    <script type="text/javascript" src="javascript/jcrop.js"></script>
+    <script src="javascript/main.js" charset="utf-8"></script>
+
+</body>
+</html>

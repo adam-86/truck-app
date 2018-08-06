@@ -4,6 +4,6 @@
 
 #### Features: You can switch between trucks, select and crop images, adjust brightness and contrast, and download a copy to your device.
 
-#### Limitations: The download feature will not work on Safari and Internet Explorer, I recommend using Chrome, FireFox, or Edge.
+#### Limitations: The download feature will not work on Safari and Internet Explorer, I recommend using Chrome or FireFox.
 
 #### Check it out here --> https://adam-86.github.io/truck-app/
